@@ -2,6 +2,10 @@ DELETE http://localhost:3001/api/persons/2
 
 ###
 
+DELETE https://obscure-hamlet-65476.herokuapp.com/api/persons/2
+
+###
+
 POST http://localhost:3001/api/persons
 Content-Type: application/json
 
@@ -19,7 +23,14 @@ Content-Type: application/json
     "name": "Anna Honkanen",
     "number": "404-123453"
 }
+###
+POST https://obscure-hamlet-65476.herokuapp.com/api/persons
+Content-Type: application/json
 
+{
+    "name": "Anna Honkanen",
+    "number": "404-123453"
+}
 ###
 
 POST http://localhost:3001/api/persons 
